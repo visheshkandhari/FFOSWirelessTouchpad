@@ -1,0 +1,16 @@
+{
+	"name": "Remote",
+	"description": "This application converts the phone into a wireless mouse.",
+	"version": "1.0",
+	"launch_path": "/index.html",
+	"icons" :
+	{
+		"128": "/img/logo.png"
+	},
+	"developer": "Vishesh Kandhari",
+	"installs_allowed_from": ["*"],
+	"default_locale": "en",
+	"permissions": {
+		"systemXHR": { "description": "Required to make Ajax Calls over the Network" }
+    }
+}
